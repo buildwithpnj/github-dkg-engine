@@ -17,7 +17,7 @@
     "contact": "callmepnj@gmail.com"
   },
   "repo": "https://github.com/buildwithpnj/github-dkg-engine",
-  "commit": "0000000000000000000000000000000000000000",
+  "commit": "eb3bc19fca54b7d0b57d8fb8688b85150bf2830a",
   "license": "Apache-2.0",
   "requiresDkgNodeVersion": ">=10.0.0",
   "memoryLayers": [
