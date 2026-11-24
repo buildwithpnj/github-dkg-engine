@@ -1,0 +1,56 @@
+{
+  "name": "@buildwithpnj/github-dkg-engine",
+  "version": "0.1.0",
+  "description": "Enterprise GitHub-to-DKG Working Memory & Knowledge Decision Engine for OriginTrail DKG v10",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "github-dkg": "./dist/cli/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "DESIGN_BRIEF.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "lint": "tsc --noEmit",
+    "start": "node dist/cli/index.js"
+  },
+  "keywords": [
+    "origintrail",
+    "dkg",
+    "dkg-v10",
+    "working-memory",
+    "shared-memory",
+    "knowledge-graph",
+    "github",
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "autoresearch"
+  ],
+  "author": "Prakash N. Jha <callmepnj@gmail.com>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/buildwithpnj/github-dkg-engine.git"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.7"
+  }
+}
